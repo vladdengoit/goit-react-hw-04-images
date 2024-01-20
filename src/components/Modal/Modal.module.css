@@ -1,0 +1,57 @@
+.Modal {
+  /* max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 24px);
+  background-color: #fff;
+  padding: 25px 15px 15px;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 80%;
+  min-height: 300px;
+  max-height: 80vh;
+  position: relative; */
+  position: absolute;
+  /* position: fixed; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 200px;
+  width: 600px;
+  margin: 12px;
+  padding: 12px;
+  padding-top: 30px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2);
+}
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+.ModalClose {
+  color: darkgrey;
+  background-color: aliceblue;
+  border-radius: 50%;
+  border: 1px solid brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
