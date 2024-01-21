@@ -8,11 +8,6 @@ const Modal = ({ closeModal, children }) => {
     return () => document.removeEventListener('keydown', handlerOverlayEscape);
   });
 
-  // handlerKey = event => {
-  //   if (event.code === 'Escape') {
-  //     closeModal();
-  //   }
-  // };
   const handlerOverlayEscape = event => {
     if (event.target === event.currentTarget || event.code === 'Escape') {
       closeModal();

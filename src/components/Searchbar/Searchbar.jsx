@@ -1,4 +1,3 @@
-// import { Component, useState } from 'react';
 import styles from './Searchbar.module.css';
 import { useState } from 'react';
 
